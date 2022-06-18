@@ -1,4 +1,4 @@
-print('\033[31m     CALCULO DE CONVERÇÃO BINARIA\033[m')
+print('\033[31m     CALCULO DE CONVERÇÃO BINÁRIA/OCTAL/HEXADECIMAL\033[m')
 numero = int(input('Porfavo digite o numero para converção? = '))
 escolha = int(input('1-Para binário\n2-Para octal\n3-Para hexadecimal\nSua escolha e = '))
 binário = bin(numero)
