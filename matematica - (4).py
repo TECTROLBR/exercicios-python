@@ -1,0 +1,5 @@
+n1=float(input('nota do 1° semestre ='))
+n2=float(input('nota do 4° semestre ='))
+n3=float(input('nota do 3° semestre ='))
+n4=float(input('nota do 4° semestre ='))
+print(f'as notas do semestre 1°{n1}, 2°{n2}, 3°{n3}, 4°{n4}, \ntotaliza uma media de =',(n1+n2+n3+n4)/4)

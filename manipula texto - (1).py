@@ -1,0 +1,6 @@
+name = input('Digite seu nome Conpleto!').strip()
+lit = name.split()
+print('seu nomo em maiscula e!\n',name.upper())
+print('seu nome todo minuscula e!\n',name.lower())
+print('seu nome tem um total de {} letras sem espaços!'.format(''.join(lit).__len__()))
+print('seu primeiro nome e {} tem um total de {} letras!'.format(lit[0],lit[0].__len__()))
